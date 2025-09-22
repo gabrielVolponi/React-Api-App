@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #0d0d0d; /* quase preto */
+  color: white;
+}   
+
+body.dark .bg-blue-300 {
+  color: black;
+  background-color: #5464ff;
+  border: none /* textos ficam pretos dentro de bg-blue */
+}
+
+body.light .bg-blue-300 {
+  color: white; /* textos ficam brancos dentro de bg-blue */
+}
